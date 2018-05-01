@@ -9,7 +9,8 @@
         app:showAsAction="always"
         />
     <item android:title="anko"
-        android:id="@+id/ank"
+        android:id="@+id/anko"
         android:icon="@android:drawable/ic_dialog_dialer"
+        app:showAsAction="ifRoom"
         />
 </menu>

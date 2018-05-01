@@ -1,16 +1,12 @@
-package paytime.co.kr.registerusersample.db
+package dhyun.co.kr.registerusersample.db
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import io.objectbox.annotation.Entity
-import io.objectbox.annotation.Id
 
-@Entity
-data class UserInfo(@Id var id : Long = 0,
-                    val name:String = "Noname",
+data class UserInfo( val name:String = "Noname",
                     val age:String = "0",
                     val TelNum:String = "No TelNum",
                     val pic_path:String)

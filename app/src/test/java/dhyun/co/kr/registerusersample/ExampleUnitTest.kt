@@ -1,4 +1,4 @@
-package paytime.co.kr.registerusersample
+package dhyun.co.kr.registerusersample
 
 import org.junit.Test
 
